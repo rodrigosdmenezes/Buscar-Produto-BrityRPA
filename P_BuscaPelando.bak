@@ -1,4 +1,4 @@
-<Process id="555b061e-b28a-40a4-a60a-8b5af287d0c6" type="process" workType="foreground" name="P_BuscaPelando" version="" designerVersion="3.1.000.01101" lastPublishedServer="" readonly="false" isValid="true" DesignedBy="Designer" Template="" StepCount="19" Orientation="horizontal">
+<Process id="555b061e-b28a-40a4-a60a-8b5af287d0c6" type="process" workType="foreground" name="P_BuscaPelando" version="" designerVersion="3.1.000.01101" lastPublishedServer="" readonly="false" isValid="true" DesignedBy="Designer" Template="" StepCount="21" Orientation="horizontal">
   <Properties>
     <Property key="Description" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="default process" enabled="True" />
     <Property key="onBefore" controlType="PropertyItemEventHandlerView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" enabled="True" />
@@ -302,20 +302,22 @@ this.getCupom = {
       <RelatedSteps />
       <Script><![CDATA[this.getCupom = StepPlayer.Run('Chrome.ChromeIsExist', this.chromeisexist_info_10);]]></Script>
     </Step>
-    <Step id="Sdfc323b76d9c4e93b07e94dd9ffacf9e" ver="310230724" createVer="310230724" type="Flow" name="DecisionThen" dpName="IfThen" dpValue="this.getCupom == true" dpValue2="" dpImage="" tag="" depth="2" stmttype="OpenBlock" enabled="True" mainSet="0">
-      <Properties id="094f378b-eb24-4519-a05d-c69e98fa3748" type="Flow">
+    <Step id="Sc2131dd3e8f34b289c720a297b7d578c" ver="310230724" createVer="310230724" type="Flow" name="Decision" dpName="IfElse" dpValue="(this.getCupom == true) &amp;&amp; (this.getCupom == false)" dpValue2="" dpImage="" tag="" depth="2" stmttype="OpenBlock" enabled="True" mainSet="0">
+      <Properties id="250b9fc0-dd35-4f63-a04c-91932236cd69" type="Flow">
         <Property type="Flow" key="Key_Description" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
-        <Property type="Flow" key="Conditions_Expression" controlType="PropertyItemTextEditorView" valueType="System.Object" formatType="Condition" required="True" visible="False" readonly="True" encrypted="False" isChanged="N" value="this.getCupom == true" order="1" />
-        <Property type="Flow" key="Conditions_CombineCondition" controlType="PropertyItemCombineConditionView" valueType="System.Boolean" formatType="Boolean" required="False" visible="False" readonly="False" encrypted="False" isChanged="N" value="True" order="2" />
+        <Property type="Flow" key="Conditions_Expression" controlType="PropertyItemTextEditorView" valueType="System.Object" formatType="Condition" required="True" visible="True" readonly="True" encrypted="False" isChanged="N" value="(this.getCupom == true) &amp;&amp; (this.getCupom == false)" order="1" />
+        <Property type="Flow" key="Conditions_CombineCondition" controlType="PropertyItemCombineConditionView" valueType="System.Boolean" formatType="Boolean" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="True" order="2" />
         <Property type="Flow" key="Conditions_Expression1" controlType="PropertyItemExpressionView" valueType="System.Object" formatType="Condition" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="this.getCupom == true" order="3" />
         <Property type="Flow" key="Conditions_AddCondition" controlType="PropertyItemAddConditionView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Flow" key="IfElse_Condition2" controlType="PropertyItemExpressionView" valueType="System.Object" formatType="Condition" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="this.getCupom == false" order="4" />
       </Properties>
       <RelatedSteps>
-        <RelatedStep id="S7960fd895fa34b00a3b80c7ea6b2a0ff" type="Flow" name="EndDecisionThen" />
+        <RelatedStep id="S409afb7bdb7944d0af2b2f094a62ecfd" type="Flow" name="Else" />
+        <RelatedStep id="S99e5a9c2fa3f4e9f8b6f74da58481f82" type="Flow" name="EndDecision" />
       </RelatedSteps>
-      <Script><![CDATA[if (this.getCupom == true) {]]></Script>
+      <Script><![CDATA[]]></Script>
     </Step>
-    <Step id="S554ec4a03d8843d4bbc6ddb3aba2ef57" ver="310230724" createVer="310230724" type="Excel" name="WriteString" dpName="WriteString" dpValue="this.colunaExcel.cupom+ this.i" dpValue2="" dpImage="" tag="" depth="3" stmttype="Normal" enabled="True" mainSet="0">
+    <Step id="S554ec4a03d8843d4bbc6ddb3aba2ef57" ver="310230724" createVer="310230724" type="Excel" name="WriteString" dpName="WriteString" dpValue="this.colunaExcel.cupom+ this.i" dpValue2="" dpImage="" tag="" depth="2" stmttype="Normal" enabled="True" mainSet="0">
       <Properties id="f429524e-9a99-4993-8f1f-04ee0a83971b" type="Excel">
         <Property type="Excel" key="Options_OnError" controlType="PropertyItemEventHandlerView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
         <Property type="Excel" key="Key_Description" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
@@ -328,14 +330,30 @@ this.getCupom = {
       <RelatedSteps />
       <Script><![CDATA[StepPlayer.Run('Excel.WriteString', this.writestring_info_12);]]></Script>
     </Step>
-    <Step id="S7960fd895fa34b00a3b80c7ea6b2a0ff" ver="310230724" createVer="310230724" type="Flow" name="EndDecisionThen" dpName="End-IfThen" dpValue="" dpValue2="" dpImage="" tag="" depth="3" stmttype="CloseBlock" enabled="True" mainSet="0">
-      <Properties id="b4441ba6-fd96-4e02-8664-afe1ed4e9097" type="Flow">
+    <Step id="S409afb7bdb7944d0af2b2f094a62ecfd" ver="310230724" createVer="310230724" type="Flow" name="Else" dpName="Else" dpValue="" dpValue2="" dpImage="" tag="" depth="3" stmttype="CloseOpenBlock" enabled="True" mainSet="0">
+      <Properties id="99d31f2f-c77a-4866-914e-c576b01ca132" type="Flow">
         <Property type="Flow" key="Key_Description" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
       </Properties>
       <RelatedSteps>
-        <RelatedStep id="Sdfc323b76d9c4e93b07e94dd9ffacf9e" type="Flow" name="DecisionThen" />
+        <RelatedStep id="Sc2131dd3e8f34b289c720a297b7d578c" type="Flow" name="Decision" />
       </RelatedSteps>
-      <Script><![CDATA[}]]></Script>
+      <Script><![CDATA[]]></Script>
+    </Step>
+    <Step id="S26335811ab1e41199417213a9c98d997" ver="310230724" createVer="310230724" type="Flow" name="Continue" dpName="Continue" dpValue="" dpValue2="" dpImage="" tag="" depth="1" stmttype="Jump" enabled="True" mainSet="0">
+      <Properties id="f9a68040-6dc9-43fb-83fb-e286ed978db2" type="Flow">
+        <Property type="Flow" key="Key_Description" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+      </Properties>
+      <RelatedSteps />
+      <Script><![CDATA[]]></Script>
+    </Step>
+    <Step id="S99e5a9c2fa3f4e9f8b6f74da58481f82" ver="310230724" createVer="310230724" type="Flow" name="EndDecision" dpName="End-IfElse" dpValue="" dpValue2="" dpImage="" tag="" depth="3" stmttype="CloseBlock" enabled="True" mainSet="0">
+      <Properties id="65e9334b-056e-409e-93c3-d1237c438bdb" type="Flow">
+        <Property type="Flow" key="Key_Description" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+      </Properties>
+      <RelatedSteps>
+        <RelatedStep id="Sc2131dd3e8f34b289c720a297b7d578c" type="Flow" name="Decision" />
+      </RelatedSteps>
+      <Script><![CDATA[]]></Script>
     </Step>
     <Step id="S2a50bcf2282e46a3af438d325f45b515" ver="310230724" createVer="310230724" type="Chrome" name="ChromeClick" dpName="ChromeClick" dpValue="this.enterOffer" dpValue2="" dpImage="Target_Capture" tag="" depth="2" stmttype="Normal" enabled="True" mainSet="0">
       <Properties id="4f77c081-5452-466e-a054-2416355414b1" type="Chrome">
@@ -662,9 +680,11 @@ this.getCupom = {
       <StepNode step_id="S65951122a2614bafa810f7f18f1f09c0" group_name="d5f4a6bb-26f6-49f9-ae5b-e167de78d023_Untitled" folded="False" />
       <StepNode step_id="Sd154f94205ee4ffe849849fea7680492" group_name="d5f4a6bb-26f6-49f9-ae5b-e167de78d023_Untitled" folded="False" />
       <StepNode step_id="S12cdf88c80b3465e95aa63e588096807" group_name="d5f4a6bb-26f6-49f9-ae5b-e167de78d023_Untitled" folded="False" />
-      <StepNode step_id="Sdfc323b76d9c4e93b07e94dd9ffacf9e" group_name="" folded="False" />
-      <StepNode step_id="S554ec4a03d8843d4bbc6ddb3aba2ef57" group_name="badf0e30-1d84-4939-87dc-6f14b11551e4_Untitled" folded="False" />
-      <StepNode step_id="S7960fd895fa34b00a3b80c7ea6b2a0ff" group_name="" folded="False" />
+      <StepNode step_id="Sc2131dd3e8f34b289c720a297b7d578c" group_name="" folded="False" />
+      <StepNode step_id="S554ec4a03d8843d4bbc6ddb3aba2ef57" group_name="5ac915d4-7c75-447e-a121-47cbadf3061a_Untitled" folded="False" />
+      <StepNode step_id="S409afb7bdb7944d0af2b2f094a62ecfd" group_name="" folded="False" />
+      <StepNode step_id="S26335811ab1e41199417213a9c98d997" group_name="97af4729-6c1e-491d-a1b5-7d56184f58de_Untitled" folded="False" />
+      <StepNode step_id="S99e5a9c2fa3f4e9f8b6f74da58481f82" group_name="" folded="False" />
       <StepNode step_id="S2a50bcf2282e46a3af438d325f45b515" group_name="f8636ce6-2a05-4178-937b-a88345c59f76_Untitled" folded="False" />
       <StepNode step_id="S49d72036ea8a45a1990d80df181f6e53" group_name="34ffdbc0-1667-49ff-8517-7371c71cba6f_Untitled" folded="False" />
       <StepNode step_id="S92f3d89e30104f3895754b32f3ce22c0" group_name="34ffdbc0-1667-49ff-8517-7371c71cba6f_Untitled" folded="False" />
@@ -673,4 +693,4 @@ this.getCupom = {
       <StepNode step_id="S7d9dacf3634245648ab423c001b049be" group_name="" folded="False" />
     </StepNodes>
   </Diagram>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>CIJnVuUYydTgh4POi29n/y6Ntck=</DigestValue></Reference></SignedInfo><SignatureValue>yYX6960Yn3UbPA/aeSq9zx2Q5mMfeLTLF2hrssjYvKVkENOubkpBxboC8/Lq65LzvagS9jPLfMbUPQnmeIsRF16IAXKMOhywxNqCOfsPZgPpKHnBpuOTWkKdIa3/2nbn+9v7IRWOKZNCwAMMm5CUtID7uBi2bNUw6PptiqZHG37BSc0Row0NUYCPbsCtT7+tBEZdrfl6Tou2wmVyvrGKNzrsnf/NZw85/V4DuFTwIotwPfp7+dcOva5IP+055/0cR4/QoStHFEWehugQ6act7Ba3Qn9WDU8bsyFiONJo1bW0P+ILxfOuCRporWYWkwaBUxKQYi3oicKKnjmvnA2nLg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=DESIGNER-00146, O=orch.sdsbrity.com, OU=IPA_DESIGNER, L="", S="", C=""</X509SubjectName></X509Data></KeyInfo></Signature></Process>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>dG8oq++TKUqTNL6FcmcBmewGUaE=</DigestValue></Reference></SignedInfo><SignatureValue>TSsdAUCnX/TgUYajwzCvpv2iGfMBnQashiEQ9y7/iPJCDA1f0cRFAZUyZZN49NPQcWwEMTxtJMibzQ4Xs0as4Dnae6RA1BiXAsNyN0JoNdqhxhjZPWpsTchx7kus9hwtzEmfnrd/ugNZdJcSp0ZJzKePDVwhebisyGspJzVj/JNGST4mD1Yuqyj9ubQOOEAOjduM745OxJL7h5reTjE+ncMyKfcLMwahad7EJ5VBaTbVaq152BQo2Q1wqUKF7x3rCP1PdDtGJ9gitL7o9YS1JznUOv29eT2Swj9OaNDcvps8vJM2UoXxJznzNcUYLrZ2QHk9KcDo9buNYODzZ8vaWw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=DESIGNER-00146, O=orch.sdsbrity.com, OU=IPA_DESIGNER, L="", S="", C=""</X509SubjectName></X509Data></KeyInfo></Signature></Process>
