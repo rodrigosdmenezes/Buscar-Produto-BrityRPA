@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Result id="555b061e-b28a-40a4-a60a-8b5af287d0c6" name="P_BuscaPelando" result="Stop" detail="TypeError: Cannot read property 'includes' of undefined&#xA;&#xA;Process: P_BuscaPelando&#xA;&#xA;Process: P_BuscaPelando&#xA;Step: ExecuteScript (1/13)&#xA;TypeError: Cannot read property 'includes' of undefined" start="2024-04-17T12:28:05.305" end="2024-04-17T12:28:45.317" jobId="Designer_20240417_092758_304">
+  <Step id="S86f16690686645bc8439a8b2b452cd83" taskName="P_BuscaPelando" type="Flow" name="ExecuteScript" displayName="ExecuteScript" callDepth="1" depth="1" num="1" result="OnError" start="2024-04-17T12:28:05.352" end="2024-04-17T12:28:20.693" displayTime="15.3s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="'Initial variable'" runtimeType="String" key="Conditions_Title" displayKey="Title" visible="true" required="true" />
+      <Property value="&lt;Too Long&gt; this.urlPelando = 'https://www.pelando.com.br/'&#xD;&#xA;&#xD;&#xA;this.execelPath = 'C:\\BuscarProdutos'&#xD;&#xA;&#xD;&#xA;this.co ... 259 more" runtimeType="String" key="Key_Script" displayKey="Script" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <JobInfo>
+    <Info name="Bot Version" value="3.1.000.01101" />
+    <Info name="Resolution" value="3840 x 1080" />
+    <Info name="Language" value="Português (Brasil)" />
+    <Info name="BotID" value="DESIGNER-00146" />
+  </JobInfo>
+</Result>

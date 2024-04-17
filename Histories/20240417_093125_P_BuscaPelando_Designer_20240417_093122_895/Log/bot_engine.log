@@ -1,0 +1,625 @@
+﻿2024-04-17 09:30:46,673 [T1] INFO  EngineStarter
+BOT Engine Start - v3.1.000.01101
+BOT ID: D_20240417_093046_133
+BOT PID: 14004
+BOT PPID: 10176
+BOT Working Directory: C:\Users\rsmenezes1\AppData\Roaming\Brity RPA Designer
+
+2024-04-17 09:30:46,687 [T1] INFO  EngineStarter
+System Language: pt-BR
+Resolution: 3840 x 1080
+
+2024-04-17 09:30:46,857 [T1] INFO  Config
+Initialize Config
+
+2024-04-17 09:30:46,881 [T1] DEBUG Config
+Config Loaded
+
+2024-04-17 09:30:46,881 [T1] DEBUG Config
+Backup config file.
+
+2024-04-17 09:30:46,887 [T1] INFO  Config
+Orchestrator Service => https://orch.sdsbrity.com:8777
+
+2024-04-17 09:30:46,890 [T1] INFO  Config
+Initialize Resource Config
+
+2024-04-17 09:30:46,909 [T1] DEBUG Config
+Refresh Language Information
+
+2024-04-17 09:30:46,987 [T1] INFO  Config
+All Config Initialized.
+
+2024-04-17 09:30:46,988 [T1] DEBUG KeyManager
+Initialize KeyManager
+
+2024-04-17 09:30:46,993 [T1] DEBUG KeyManager
+Device ID is initialized.
+
+2024-04-17 09:30:47,015 [T1] INFO  CertLicenseClient
+Initialize certificate.
+
+2024-04-17 09:30:47,017 [T1] DEBUG CertLicenseClient
+Set Security Protocol: Tls12
+
+2024-04-17 09:30:47,038 [T4] DEBUG JobService
+Connect to agent service
+
+2024-04-17 09:30:47,043 [T1] DEBUG ApplicationInitializer
+InitMode: Thread
+
+2024-04-17 09:30:47,047 [T1] INFO  LibraryManager
+Load Libraries - Started
+
+2024-04-17 09:30:47,053 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Chrome
+
+2024-04-17 09:30:47,143 [T4] DEBUG JobService
+JobService URL : net.tcp://127.0.0.1:59001/rpa/agent
+
+2024-04-17 09:30:47,144 [T4] DEBUG JobService
+Open connection
+
+2024-04-17 09:30:47,222 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Desktop
+
+2024-04-17 09:30:47,315 [T4] DEBUG JobService
+Register engine to agent
+
+2024-04-17 09:30:47,355 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Excel
+
+2024-04-17 09:30:47,393 [T4] DEBUG JobService
+Engine is connected to agent service.
+
+2024-04-17 09:30:47,393 [T4] DEBUG JobService
+Owner Process PID: 10176
+
+2024-04-17 09:30:47,398 [T4] INFO  JobService
+Start monitoring owner process is terminated.
+
+2024-04-17 09:30:47,466 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Flow
+
+2024-04-17 09:30:47,537 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.IE
+
+2024-04-17 09:30:47,603 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ImageConverter
+
+2024-04-17 09:30:47,645 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ImageRecognition
+
+2024-04-17 09:30:47,770 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.MicrosoftOCR
+
+2024-04-17 09:30:47,818 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Net
+
+2024-04-17 09:30:47,870 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Orchestra
+
+2024-04-17 09:30:47,922 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ProcessFlow
+
+2024-04-17 09:30:47,981 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.SAP
+
+2024-04-17 09:30:48,049 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Web
+
+2024-04-17 09:30:48,129 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Win
+
+2024-04-17 09:30:48,214 [T1] INFO  ScreenCapture
+Default Screen Capture Bounds: -1920;0;3840;1080
+
+2024-04-17 09:30:48,236 [T1] DEBUG AddInLoader
+Load Assembly : BrityRPA.AddIn.NativeApp
+
+2024-04-17 09:30:48,297 [T1] DEBUG AddInLoader
+Load Assembly : BrityWorks.AddIn.Outlook
+
+2024-04-17 09:30:48,336 [T1] DEBUG AddInLoader
+Load Assembly : BrityWorks.AddIn.Pdf
+
+2024-04-17 09:30:48,374 [T1] DEBUG LibraryManager
+Load Library - Chrome
+
+2024-04-17 09:30:48,375 [T1] DEBUG LibraryManager
+Load Library - Desktop
+
+2024-04-17 09:30:48,376 [T1] DEBUG LibraryManager
+Load Library - Excel
+
+2024-04-17 09:30:48,377 [T1] DEBUG LibraryManager
+Load Library - Flow
+
+2024-04-17 09:30:48,378 [T1] DEBUG LibraryManager
+Load Library - IE
+
+2024-04-17 09:30:48,378 [T1] DEBUG LibraryManager
+Load Library - ImageConverter
+
+2024-04-17 09:30:48,378 [T1] DEBUG LibraryManager
+Load Library - ImageRecognition
+
+2024-04-17 09:30:48,379 [T1] DEBUG LibraryManager
+Load Library - MicrosoftOCR
+
+2024-04-17 09:30:48,379 [T1] DEBUG LibraryManager
+Load Library - NativeApp
+
+2024-04-17 09:30:48,380 [T1] DEBUG LibraryManager
+Load Library - Net
+
+2024-04-17 09:30:48,380 [T1] DEBUG LibraryManager
+Load Library - Orchestra
+
+2024-04-17 09:30:48,381 [T1] DEBUG LibraryManager
+Load Library - Outlook
+
+2024-04-17 09:30:48,381 [T1] DEBUG LibraryManager
+Load Library - Pdf
+
+2024-04-17 09:30:48,381 [T1] DEBUG LibraryManager
+Load Library - SAP
+
+2024-04-17 09:30:48,381 [T1] DEBUG LibraryManager
+Load Library - Web
+
+2024-04-17 09:30:48,382 [T1] DEBUG LibraryManager
+Load Library - Win
+
+2024-04-17 09:30:48,382 [T1] DEBUG LibraryManager
+Load Library - WorkFlow
+
+2024-04-17 09:30:48,385 [T1] DEBUG LibraryManager
+Load built-in script libraries
+
+2024-04-17 09:30:48,457 [T1] INFO  LibraryManager
+Load Libraries - Completed.
+
+2024-04-17 09:30:48,462 [T1] INFO  App
+Launch Arguments: Total: 6 |  -eid D_20240417_093046_133 -runtype ProcRunner -ppid 10176
+
+2024-04-17 09:30:48,463 [T1] DEBUG Config
+Refresh Language Information
+
+2024-04-17 09:30:48,463 [T1] DEBUG LibraryManager
+LibraryManager Initialized.
+
+2024-04-17 09:31:25,409 [T6] INFO  JobService
+Start Job: P_BuscaPelando (Foreground)
+{
+  "UsePIP": false,
+  "UserID": null,
+  "UserPWD": null,
+  "IsRunning": false,
+  "ResultMessage": null,
+  "JobWorkDir": "C:\\Users\\rsmenezes1\\Documents\\Brity RPA Projects\\BuscaPelando\\Histories\\20240417_093125_P_BuscaPelando_Designer_20240417_093122_895",
+  "JobLogDir": "C:\\Users\\rsmenezes1\\Documents\\Brity RPA Projects\\BuscaPelando\\Histories\\20240417_093125_P_BuscaPelando_Designer_20240417_093122_895\\Log",
+  "JobScreenshotDir": "C:\\Users\\rsmenezes1\\Documents\\Brity RPA Projects\\BuscaPelando\\Histories\\20240417_093125_P_BuscaPelando_Designer_20240417_093122_895\\Log\\Screenshot",
+  "TotalProcessStepCount": 0,
+  "CurrentStepNo": 0,
+  "CurrentStepName": null,
+  "StartTime": "2024-04-17 09:31:25",
+  "EndTime": null,
+  "Data": null,
+  "EngineID": "D_20240417_093046_133",
+  "EnginePID": 0,
+  "EngineRecommededVersion": "",
+  "JobId": "Designer_20240417_093122_895",
+  "JobType": 1,
+  "UserAuthentication": null,
+  "ProcessPath": "C:\\Users\\rsmenezes1\\Documents\\Brity RPA Projects\\BuscaPelando\\P_BuscaPelando.proc",
+  "ProcessId": "555b061e-b28a-40a4-a60a-8b5af287d0c6",
+  "ProcessVer": "",
+  "ProcessArgs": null,
+  "RequesterType": 3,
+  "RequesterId": "designer",
+  "RequesterPID": 10176,
+  "OptionsJsonString": null,
+  "TimeoutSec": 0,
+  "State": 0
+}
+
+2024-04-17 09:31:25,525 [T9] DEBUG JobService
+Waiting library loading...
+
+2024-04-17 09:31:25,526 [T9] DEBUG Config
+Reload User Settings
+
+2024-04-17 09:31:25,527 [T9] INFO  Config
+UserSettings Reloaded =>
+ - LastExecution : jVyM5KK2mRiC/F8P56YxM7NmUsO9Xe3qi+iRHckJqi4= -> mLlJA8bQnrMIguHnn4Oz+GFto0YTr0NJAc5KHZZpOAk=
+
+2024-04-17 09:31:25,527 [T9] INFO  JobService
+Config Loading Completed.
+
+2024-04-17 09:31:25,527 [T9] DEBUG JobService
+Config Loading Time: 1 ms.
+
+2024-04-17 09:31:25,533 [T9] INFO  JobManager
+Create JobManager instance for job P_BuscaPelando(Designer_20240417_093122_895)
+
+2024-04-17 09:31:25,537 [T9] INFO  JobRequest
+Job ID : Designer_20240417_093122_895
+Project Path  : C:\Users\rsmenezes1\Documents\Brity RPA Projects\BuscaPelando\BuscaPelando.proj
+Process Name  : P_BuscaPelando
+Engine Mode   : Designer
+Requester Type: Designer
+Requester PID : 10176
+
+2024-04-17 09:31:25,537 [T10] INFO  JobRequest
+Start Callback Sender
+
+2024-04-17 09:31:25,538 [T10] DEBUG JobRequest
+Step Callback Interval: 500
+
+2024-04-17 09:31:25,573 [T9] DEBUG ProjectManager
+Set Project Information
+
+2024-04-17 09:31:25,589 [T9] INFO  PlayOptionManager
+PlayOption
+- Step Interval : 1
+- Disable DrawBounds : False
+- Invoke First : False
+- Allow Upload of DumpScreen results : False
+
+2024-04-17 09:31:25,589 [T9] INFO  JobRunner
+Initialize Script Engine
+
+2024-04-17 09:31:25,601 [TScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Initializing
+##############################################################
+
+
+2024-04-17 09:31:25,624 [T10] DEBUG JobRequest
+Callback - State: Initializing
+
+
+2024-04-17 09:31:26,181 [TScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Ready
+##############################################################
+
+
+2024-04-17 09:31:26,189 [T9] INFO  JobRunnerHook
+HotKey Hook Started
+
+2024-04-17 09:31:26,189 [T9] INFO  JobRequest
+##############################################################
+### STATE: Starting
+##############################################################
+
+
+2024-04-17 09:31:26,191 [TScriptEngine] INFO  JobRunner
+RunProcess start
+
+2024-04-17 09:31:26,192 [T10] DEBUG JobRequest
+Callback - State: Ready
+
+
+2024-04-17 09:31:26,192 [T10] DEBUG JobRequest
+Callback - State: Starting
+
+
+2024-04-17 09:31:26,192 [TScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Running
+##############################################################
+
+
+2024-04-17 09:31:26,192 [TScriptEngine] INFO  JobRequest
+Last job life cycle state: Running
+
+2024-04-17 09:31:26,207 [T10] DEBUG JobRequest
+Callback - State: Running
+
+
+2024-04-17 09:31:27,282 [TScriptEngine] DEBUG ScreenCapture
+DirectX Screen Capture Initialized.
+
+2024-04-17 09:31:27,422 [TScriptEngine] DEBUG JobRunner
+DirectX ScreenCapture Checked.
+
+2024-04-17 09:31:27,438 [TScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: StartProcess - P_BuscaPelando
+##############################################################
+555b061e-b28a-40a4-a60a-8b5af287d0c6
+P_BuscaPelando
+
+
+2024-04-17 09:31:27,467 [TScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: P_BuscaPelando
+**************************************************************
+ - STEP 1: S86f16690686645bc8439a8b2b452cd83 (1/13) - (1/13)
+ - [1] ExecuteScript
+
+
+2024-04-17 09:31:33,374 [TScriptEngine] INFO  JobRunner
+Try Pause
+
+2024-04-17 09:31:33,375 [TScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Paused
+##############################################################
+
+
+2024-04-17 09:31:33,375 [TScriptEngine] INFO  JobRequest
+Last job life cycle state: Paused
+
+2024-04-17 09:31:33,390 [T10] DEBUG JobRequest
+Callback - State: Paused
+
+
+2024-04-17 09:32:00,121 [TScriptEngine] DEBUG DebugCommand
+CMD: StepPass
+
+2024-04-17 09:32:00,123 [TScriptEngine] WARN  ScriptSupport
+[CATCH_STEP_EXCEPTION] Process: P_BuscaPelando
+Step: ExecuteScript (1/13)
+
+TypeError: Cannot read property 'includes' of undefined
+
+2024-04-17 09:32:00,136 [TScriptEngine] INFO  JobRequest
+ - STEP 2: S86f16690686645bc8439a8b2b452cd83 (1/13) - (1/13)
+ - [1] ExecuteScript
+
+
+2024-04-17 09:32:00,152 [TScriptEngine] INFO  JobRequest
+ - STEP 3: S4d3ff38410c5455b826d43d87cf49cd8 (2/13) - (2/13)
+ - [2] ChromeOpen
+
+
+2024-04-17 09:32:00,153 [TScriptEngine] INFO  JobRunner
+Try Pause - Skip (Not Running: Paused)
+
+2024-04-17 09:32:05,165 [TScriptEngine] DEBUG DebugCommand
+CMD: StepOver
+
+2024-04-17 09:32:05,254 [T23] DEBUG ChromeCommonExtension
+extension default locale empty
+
+2024-04-17 09:32:05,369 [T23] DEBUG ChromeCommonExtension
+extension default locale empty
+
+2024-04-17 09:32:06,032 [TScriptEngine] INFO  JobRequest
+ - STEP 4: S624c8996017a425fb225ac6efd585f38 (3/13) - (3/13)
+ - [3] OpenExcel
+
+
+2024-04-17 09:32:06,033 [TScriptEngine] INFO  JobRunner
+Try Pause - Skip (Not Running: Paused)
+
+2024-04-17 09:32:13,177 [TScriptEngine] DEBUG DebugCommand
+CMD: StepOver
+
+2024-04-17 09:32:13,188 [TScriptEngine] ERROR OpenExcel
+There is no file in file path. Please check again.
+=> Path: C:\BuscarProdutos
+
+2024-04-17 09:32:13,188 [TScriptEngine] ERROR OpenExcel
+There is no file in file path. Please check again.
+=> Path: C:\BuscarProdutos
+
+2024-04-17 09:32:13,189 [TScriptEngine] DEBUG ExcelBase
+DisposeExcel
+
+2024-04-17 09:32:21,243 [TScriptEngine] INFO  JobRunner
+Try Pause - Skip (Not Running: Paused)
+
+2024-04-17 09:32:40,456 [TScriptEngine] DEBUG DebugCommand
+CMD: StepOver
+
+2024-04-17 09:32:40,456 [TScriptEngine] WARN  ScriptSupport
+[CATCH_STEP_EXCEPTION] Process: P_BuscaPelando
+Step: OpenExcel (3/13)
+
+Error: There is no file in file path. Please check again.
+=> Path: C:\BuscarProdutos
+
+2024-04-17 09:32:40,472 [TScriptEngine] INFO  JobRequest
+ - STEP 5: S624c8996017a425fb225ac6efd585f38 (3/13) - (3/13)
+ - [3] OpenExcel
+
+
+2024-04-17 09:32:40,473 [TScriptEngine] ERROR OpenExcel
+There is no file in file path. Please check again.
+=> Path: C:\BuscarProdutos
+
+2024-04-17 09:32:40,473 [TScriptEngine] ERROR OpenExcel
+There is no file in file path. Please check again.
+=> Path: C:\BuscarProdutos
+
+2024-04-17 09:32:40,473 [TScriptEngine] DEBUG ExcelBase
+DisposeExcel
+
+2024-04-17 09:32:43,836 [TScriptEngine] INFO  JobRunner
+Try Pause - Skip (Not Running: Paused)
+
+2024-04-17 09:32:59,206 [TScriptEngine] DEBUG DebugCommand
+CMD: StepOver
+
+2024-04-17 09:32:59,206 [TScriptEngine] WARN  ScriptSupport
+[CATCH_STEP_EXCEPTION] Process: P_BuscaPelando
+Step: OpenExcel (3/13)
+
+Error: There is no file in file path. Please check again.
+=> Path: C:\BuscarProdutos
+
+2024-04-17 09:32:59,221 [TScriptEngine] INFO  JobRequest
+ - STEP 6: S624c8996017a425fb225ac6efd585f38 (3/13) - (3/13)
+ - [3] OpenExcel
+
+
+2024-04-17 09:32:59,222 [TScriptEngine] ERROR OpenExcel
+There is no file in file path. Please check again.
+=> Path: C:\BuscarProdutos
+
+2024-04-17 09:32:59,222 [TScriptEngine] ERROR OpenExcel
+There is no file in file path. Please check again.
+=> Path: C:\BuscarProdutos
+
+2024-04-17 09:32:59,222 [TScriptEngine] DEBUG ExcelBase
+DisposeExcel
+
+2024-04-17 09:33:02,431 [TScriptEngine] WARN  ScriptSupport
+[CATCH_STEP_EXCEPTION] Process: P_BuscaPelando
+Step: OpenExcel (3/13)
+
+Error: There is no file in file path. Please check again.
+=> Path: C:\BuscarProdutos
+
+2024-04-17 09:33:02,440 [TScriptEngine] INFO  JobRequest
+ - STEP 7: S584a8a33bcbf4374b5d2845290c8d9b2 (4/13) - (4/13)
+ - [4] GetRowCount
+
+
+2024-04-17 09:33:02,442 [TScriptEngine] INFO  JobRunner
+Try Pause - Skip (Not Running: Paused)
+
+2024-04-17 09:33:10,012 [TScriptEngine] DEBUG DebugCommand
+CMD: StepOver
+
+2024-04-17 09:33:15,026 [TScriptEngine] ERROR ActiveExcelUtil
+Referência de objeto não definida para uma instância de um objeto.
+
+2024-04-17 09:33:15,026 [TScriptEngine] ERROR ActiveExcelUtil
+
+
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em RPAGO.Lib.Excel.Util.ActiveExcelUtil.GetActiveWorkbook()
+2024-04-17 09:33:15,029 [TScriptEngine] ERROR GetRowCount
+There is no active excel. Please check again.
+
+2024-04-17 09:33:18,606 [TScriptEngine] WARN  ScriptSupport
+[CATCH_STEP_EXCEPTION] Process: P_BuscaPelando
+Step: GetRowCount (4/13)
+
+Error: Failed to read row count.
+ - There is no active excel. Please check again.
+
+2024-04-17 09:33:18,609 [TScriptEngine] FINE  JobRunner
+RunTask ExceptionOccured. TASK: P_BuscaPelando => Failed to read row count.
+ - There is no active excel. Please check again.
+
+2024-04-17 09:33:18,621 [TScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: EndProcess - P_BuscaPelando
+##############################################################
+555b061e-b28a-40a4-a60a-8b5af287d0c6
+P_BuscaPelando
+
+
+2024-04-17 09:33:18,631 [TScriptEngine] ERROR JobRunner
+Process: P_BuscaPelando
+Step: GetRowCount (4/13)
+
+Failed to read row count.
+ - There is no active excel. Please check again.
+
+[CallStack]
+  - P_BuscaPelando: [4] GetRowCount
+
+[Global Variables]
+  - RESULT = <null> (Any)
+
+2024-04-17 09:33:18,631 [TScriptEngine] DEBUG JobManager
+Set Result State: ExceptionOccured
+
+2024-04-17 09:33:20,790 [TScriptEngine] INFO  JobRunner
+Make report.
+
+2024-04-17 09:33:20,826 [TScriptEngine] INFO  JobRunner
+Start to clean up resources.
+
+2024-04-17 09:33:20,827 [T26] DEBUG JobRunner
+Start timer for checking the job to be completed.
+
+2024-04-17 09:33:20,827 [TScriptEngine] DEBUG JobRunner
+OnProcessFailed
+
+2024-04-17 09:33:20,828 [TScriptEngine] INFO  JobRunner
+Start to clean up resources.
+
+2024-04-17 09:33:20,829 [TScriptEngine] DEBUG JobRunner
+Remove all libraries
+
+2024-04-17 09:33:20,830 [TScriptEngine] DEBUG NetPlayer
+WebPlayer OnDispose
+
+2024-04-17 09:33:20,832 [TScriptEngine] DEBUG WebPlayer
+WebPlayer OnDispose : Do Nothing
+
+2024-04-17 09:33:20,833 [TScriptEngine] DEBUG UiaAppHelper
+WinHelper DisposeAppList Count: 0
+
+2024-04-17 09:33:20,834 [TScriptEngine] INFO  JobRunner
+All Resources Clear
+
+2024-04-17 09:33:20,834 [TScriptEngine] DEBUG JobRunner
+OnCompleted
+
+2024-04-17 09:33:20,834 [TScriptEngine] DEBUG JobRunner
+SendJobResult: ExceptionOccured
+
+2024-04-17 09:33:20,834 [TScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: ExceptionOccured
+##############################################################
+Process: P_BuscaPelando
+Step: GetRowCount (4/13)
+
+Failed to read row count.
+ - There is no active excel. Please check again.
+
+[CallStack]
+  - P_BuscaPelando: [4] GetRowCount
+
+[Global Variables]
+  - RESULT = <null> (Any)
+
+
+2024-04-17 09:33:20,834 [TScriptEngine] INFO  JobRequest
+Last job life cycle state: ExceptionOccured
+
+2024-04-17 09:33:20,845 [TScriptEngine] INFO  JobRequest
+##############################################################
+### JOB COMPLETED
+##############################################################
+
+
+2024-04-17 09:33:20,858 [T10] DEBUG JobRequest
+Callback - State: ExceptionOccured
+Process: P_BuscaPelando
+Step: GetRowCount (4/13)
+
+Failed to read row count.
+ - There is no active excel. Please check again.
+
+[CallStack]
+  - P_BuscaPelando: [4] GetRowCount
+
+[Global Variables]
+  - RESULT = <null> (Any)
+
+2024-04-17 09:33:20,858 [T10] INFO  JobRequest
+Callback - EngineClosed
+
+2024-04-17 09:33:20,859 [T10] INFO  JobService
+Disconnect agent service
+
+2024-04-17 09:33:20,870 [T10] DEBUG JobRequest
+End of Callback Sender
+
+2024-04-17 09:33:20,873 [TScriptEngine] INFO  JobRunner
+RunProcess end
+
+2024-04-17 09:33:20,873 [T1] INFO  JobService
+Exit - Shutdown Engine BOT
+
