@@ -2,8 +2,8 @@
   <SharedTask isExpended="false" />
   <NormalTask isExpended="false" />
   <Event isExpended="false" />
-  <Process isExpended="false">
-    <LinkItem id="555b061e-b28a-40a4-a60a-8b5af287d0c6" category="Process" isChanged="Y" desc="default process" stepCount="13" name="P_BuscaPelando">
+  <Process isExpended="true">
+    <LinkItem id="555b061e-b28a-40a4-a60a-8b5af287d0c6" category="Process" isChanged="Y" desc="default process" stepCount="23" name="P_BuscaPelando">
       <Properties />
     </LinkItem>
   </Process>
@@ -38,4 +38,4 @@
     <string>Pdf</string>
     <string>SAP</string>
   </DisplayLibraries>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>PuWu5E7XrUIZ0IzYB712LGOjKuY=</DigestValue></Reference></SignedInfo><SignatureValue>tZQzdjvJx0JlQhjpIlqZiYbLnQNznTyF7Tq842tfsxdldQfm89o4LzeZOzzy7YmTYRe44nibJ7XpLrA4Bsz2veqqBL4GxIaB8WRt4p04IUAD5Y4nZlutTjB8LiGSE4tAa0i83VW5Hul+tS3sUwCzkp8srFoIed5MS5rfpqIJk03Oh9pepm2kAN92erkcese2mdcB8/bqJ4Qpqzi5FQ+puvMfmeajTZSFEa8e6J2DGR62H6dPOS+OvQe1NDGe3LF6SdGqxlqDaYZc9Zvhk0Ot3YrfcZgCzHr5QUOhvdHIdjuk4I+nm08bDKtDY6lEZP/ClJuITzCMKQ3jMBoRW6Ee4A==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=DESIGNER-00146, O=orch.sdsbrity.com, OU=IPA_DESIGNER, L="", S="", C=""</X509SubjectName></X509Data></KeyInfo></Signature></Project>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>OYAAXhI3VsMT2oGoAVn6q/5VUo0=</DigestValue></Reference></SignedInfo><SignatureValue>lBUzC0ON1hlYi+xeHOrS4f0cmXCwtBYtkNRo1/a2QYwjm2AGu9aNXpZDhEB5v7xFTY1wRJ85NS+6FHIW+kz6mHIxYIstDJD7d2SJ/CdTKN7rPPj8cH1LUubsp3jTpE7vT0VCD8lmlOIQ9gT+CHGGw4AL0ycysSdcZE2PnLXdgb4kQ3LicW6LRgP9/m/UDboilis/s1kwk3Kof3lrAhQ+NiE1Q9PR814LfR7+B7Vy0YWLiiomUXHh0Tz+k6U02RoCc8QqrJ66DNeORSqQ6n/9lAzUbnpKn0k84Vl6FDd+KM9jwTo2id5BTQIHLNHaiz2LlrMtREslgHo4jOHXESqgdg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=DESIGNER-00154, O=orch.sdsbrity.com, OU=IPA_DESIGNER, L="", S="", C=""</X509SubjectName></X509Data></KeyInfo></Signature></Project>

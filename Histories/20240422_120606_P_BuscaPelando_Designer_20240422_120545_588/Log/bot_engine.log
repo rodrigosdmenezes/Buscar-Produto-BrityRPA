@@ -1,0 +1,639 @@
+﻿2024-04-22 12:05:05,667 [T1] INFO  EngineStarter
+BOT Engine Start - v3.1.000.01101
+BOT ID: D_20240422_120505_211
+BOT PID: 22080
+BOT PPID: 5068
+BOT Working Directory: C:\Users\rsouz\AppData\Roaming\Brity RPA Designer
+
+2024-04-22 12:05:05,678 [T1] INFO  EngineStarter
+System Language: pt-BR
+Resolution: 1920 x 1080
+
+2024-04-22 12:05:05,825 [T1] INFO  Config
+Initialize Config
+
+2024-04-22 12:05:05,849 [T1] DEBUG Config
+Config Loaded
+
+2024-04-22 12:05:05,849 [T1] DEBUG Config
+Backup config file.
+
+2024-04-22 12:05:05,854 [T1] INFO  Config
+Orchestrator Service => https://orch.sdsbrity.com:8777
+
+2024-04-22 12:05:05,856 [T1] INFO  Config
+Initialize Resource Config
+
+2024-04-22 12:05:05,874 [T1] DEBUG Config
+Refresh Language Information
+
+2024-04-22 12:05:05,928 [T1] INFO  Config
+All Config Initialized.
+
+2024-04-22 12:05:05,930 [T1] DEBUG KeyManager
+Initialize KeyManager
+
+2024-04-22 12:05:05,933 [T1] DEBUG KeyManager
+Device ID is initialized.
+
+2024-04-22 12:05:05,955 [T1] INFO  CertLicenseClient
+Initialize certificate.
+
+2024-04-22 12:05:05,957 [T1] DEBUG CertLicenseClient
+Set Security Protocol: Tls12
+
+2024-04-22 12:05:05,975 [T5] DEBUG JobService
+Connect to agent service
+
+2024-04-22 12:05:05,981 [T1] DEBUG ApplicationInitializer
+InitMode: Thread
+
+2024-04-22 12:05:05,984 [T1] INFO  LibraryManager
+Load Libraries - Started
+
+2024-04-22 12:05:05,991 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Chrome
+
+2024-04-22 12:05:06,071 [T5] DEBUG JobService
+JobService URL : net.tcp://127.0.0.1:59001/rpa/agent
+
+2024-04-22 12:05:06,071 [T5] DEBUG JobService
+Open connection
+
+2024-04-22 12:05:06,171 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Desktop
+
+2024-04-22 12:05:06,237 [T5] DEBUG JobService
+Register engine to agent
+
+2024-04-22 12:05:06,271 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Excel
+
+2024-04-22 12:05:06,315 [T5] DEBUG JobService
+Engine is connected to agent service.
+
+2024-04-22 12:05:06,315 [T5] DEBUG JobService
+Owner Process PID: 5068
+
+2024-04-22 12:05:06,324 [T5] INFO  JobService
+Start monitoring owner process is terminated.
+
+2024-04-22 12:05:06,371 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Flow
+
+2024-04-22 12:05:06,437 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.IE
+
+2024-04-22 12:05:06,486 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ImageConverter
+
+2024-04-22 12:05:06,542 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ImageRecognition
+
+2024-04-22 12:05:06,658 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.MicrosoftOCR
+
+2024-04-22 12:05:06,694 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Net
+
+2024-04-22 12:05:06,743 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Orchestra
+
+2024-04-22 12:05:06,787 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ProcessFlow
+
+2024-04-22 12:05:06,835 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.SAP
+
+2024-04-22 12:05:06,890 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Web
+
+2024-04-22 12:05:06,950 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Win
+
+2024-04-22 12:05:07,020 [T1] INFO  ScreenCapture
+Default Screen Capture Bounds: 0;0;1920;1080
+
+2024-04-22 12:05:07,041 [T1] DEBUG AddInLoader
+Load Assembly : BrityRPA.AddIn.NativeApp
+
+2024-04-22 12:05:07,102 [T1] DEBUG AddInLoader
+Load Assembly : BrityWorks.AddIn.Outlook
+
+2024-04-22 12:05:07,143 [T1] DEBUG AddInLoader
+Load Assembly : BrityWorks.AddIn.Pdf
+
+2024-04-22 12:05:07,186 [T1] DEBUG LibraryManager
+Load Library - Chrome
+
+2024-04-22 12:05:07,187 [T1] DEBUG LibraryManager
+Load Library - Desktop
+
+2024-04-22 12:05:07,188 [T1] DEBUG LibraryManager
+Load Library - Excel
+
+2024-04-22 12:05:07,188 [T1] DEBUG LibraryManager
+Load Library - Flow
+
+2024-04-22 12:05:07,188 [T1] DEBUG LibraryManager
+Load Library - IE
+
+2024-04-22 12:05:07,189 [T1] DEBUG LibraryManager
+Load Library - ImageConverter
+
+2024-04-22 12:05:07,189 [T1] DEBUG LibraryManager
+Load Library - ImageRecognition
+
+2024-04-22 12:05:07,190 [T1] DEBUG LibraryManager
+Load Library - MicrosoftOCR
+
+2024-04-22 12:05:07,190 [T1] DEBUG LibraryManager
+Load Library - NativeApp
+
+2024-04-22 12:05:07,191 [T1] DEBUG LibraryManager
+Load Library - Net
+
+2024-04-22 12:05:07,192 [T1] DEBUG LibraryManager
+Load Library - Orchestra
+
+2024-04-22 12:05:07,192 [T1] DEBUG LibraryManager
+Load Library - Outlook
+
+2024-04-22 12:05:07,192 [T1] DEBUG LibraryManager
+Load Library - Pdf
+
+2024-04-22 12:05:07,192 [T1] DEBUG LibraryManager
+Load Library - SAP
+
+2024-04-22 12:05:07,193 [T1] DEBUG LibraryManager
+Load Library - Web
+
+2024-04-22 12:05:07,193 [T1] DEBUG LibraryManager
+Load Library - Win
+
+2024-04-22 12:05:07,193 [T1] DEBUG LibraryManager
+Load Library - WorkFlow
+
+2024-04-22 12:05:07,197 [T1] DEBUG LibraryManager
+Load built-in script libraries
+
+2024-04-22 12:05:07,268 [T1] INFO  LibraryManager
+Load Libraries - Completed.
+
+2024-04-22 12:05:07,272 [T1] INFO  App
+Launch Arguments: Total: 6 |  -eid D_20240422_120505_211 -runtype ProcRunner -ppid 5068
+
+2024-04-22 12:05:07,273 [T1] DEBUG Config
+Refresh Language Information
+
+2024-04-22 12:05:07,273 [T1] DEBUG LibraryManager
+LibraryManager Initialized.
+
+2024-04-22 12:06:06,410 [T6] INFO  JobService
+Start Job: P_BuscaPelando (Foreground)
+{
+  "UsePIP": false,
+  "UserID": null,
+  "UserPWD": null,
+  "IsRunning": false,
+  "ResultMessage": null,
+  "JobWorkDir": "C:\\Users\\rsouz\\OneDrive\\Documentos\\BuscaPelando\\BuscaPelando\\Histories\\20240422_120606_P_BuscaPelando_Designer_20240422_120545_588",
+  "JobLogDir": "C:\\Users\\rsouz\\OneDrive\\Documentos\\BuscaPelando\\BuscaPelando\\Histories\\20240422_120606_P_BuscaPelando_Designer_20240422_120545_588\\Log",
+  "JobScreenshotDir": "C:\\Users\\rsouz\\OneDrive\\Documentos\\BuscaPelando\\BuscaPelando\\Histories\\20240422_120606_P_BuscaPelando_Designer_20240422_120545_588\\Log\\Screenshot",
+  "TotalProcessStepCount": 0,
+  "CurrentStepNo": 0,
+  "CurrentStepName": null,
+  "StartTime": "2024-04-22 12:06:06",
+  "EndTime": null,
+  "Data": null,
+  "EngineID": "D_20240422_120505_211",
+  "EnginePID": 0,
+  "EngineRecommededVersion": "",
+  "JobId": "Designer_20240422_120545_588",
+  "JobType": 1,
+  "UserAuthentication": null,
+  "ProcessPath": "C:\\Users\\rsouz\\OneDrive\\Documentos\\BuscaPelando\\BuscaPelando\\P_BuscaPelando.proc",
+  "ProcessId": "555b061e-b28a-40a4-a60a-8b5af287d0c6",
+  "ProcessVer": "",
+  "ProcessArgs": null,
+  "RequesterType": 3,
+  "RequesterId": "designer",
+  "RequesterPID": 5068,
+  "OptionsJsonString": null,
+  "TimeoutSec": 0,
+  "State": 0
+}
+
+2024-04-22 12:06:06,525 [T12] DEBUG JobService
+Waiting library loading...
+
+2024-04-22 12:06:06,526 [T12] DEBUG Config
+Reload User Settings
+
+2024-04-22 12:06:06,527 [T12] INFO  Config
+UserSettings Reloaded =>
+ - LastExecution : 3I+gyZgXpgnF7RkjzxArnzN+pY8aOcyVficuFyPMvO0= -> 0NAfLaVsyUpuee9TZBdYGNuX27iJe8moDezw88Do8XA=
+
+2024-04-22 12:06:06,527 [T12] INFO  JobService
+Config Loading Completed.
+
+2024-04-22 12:06:06,527 [T12] DEBUG JobService
+Config Loading Time: 1 ms.
+
+2024-04-22 12:06:06,532 [T12] INFO  JobManager
+Create JobManager instance for job P_BuscaPelando(Designer_20240422_120545_588)
+
+2024-04-22 12:06:06,536 [T12] INFO  JobRequest
+Job ID : Designer_20240422_120545_588
+Project Path  : C:\Users\rsouz\OneDrive\Documentos\BuscaPelando\BuscaPelando\BuscaPelando.proj
+Process Name  : P_BuscaPelando
+Engine Mode   : Designer
+Requester Type: Designer
+Requester PID : 5068
+
+2024-04-22 12:06:06,537 [T11] INFO  JobRequest
+Start Callback Sender
+
+2024-04-22 12:06:06,537 [T11] DEBUG JobRequest
+Step Callback Interval: 500
+
+2024-04-22 12:06:06,574 [T12] DEBUG ProjectManager
+Set Project Information
+
+2024-04-22 12:06:06,591 [T12] INFO  PlayOptionManager
+PlayOption
+- Step Interval : 1
+- Disable DrawBounds : False
+- Invoke First : False
+- Allow Upload of DumpScreen results : False
+
+2024-04-22 12:06:06,591 [T12] INFO  JobRunner
+Initialize Script Engine
+
+2024-04-22 12:06:06,601 [TScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Initializing
+##############################################################
+
+
+2024-04-22 12:06:06,628 [T11] DEBUG JobRequest
+Callback - State: Initializing
+
+
+2024-04-22 12:06:07,129 [TScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Ready
+##############################################################
+
+
+2024-04-22 12:06:07,137 [T12] INFO  JobRunnerHook
+HotKey Hook Started
+
+2024-04-22 12:06:07,137 [T12] INFO  JobRequest
+##############################################################
+### STATE: Starting
+##############################################################
+
+
+2024-04-22 12:06:07,138 [TScriptEngine] INFO  JobRunner
+RunProcess start
+
+2024-04-22 12:06:07,139 [TScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Running
+##############################################################
+
+
+2024-04-22 12:06:07,139 [TScriptEngine] INFO  JobRequest
+Last job life cycle state: Running
+
+2024-04-22 12:06:07,140 [T11] DEBUG JobRequest
+Callback - State: Ready
+
+
+2024-04-22 12:06:07,141 [T11] DEBUG JobRequest
+Callback - State: Starting
+
+
+2024-04-22 12:06:07,155 [T11] DEBUG JobRequest
+Callback - State: Running
+
+
+2024-04-22 12:06:07,229 [TScriptEngine] WARN  ProcessDataValidator
+It can be occurred a malfunction to play P_BuscaPelando,
+because this system is different from designed system environment.
+(OS, Resolution, etc)
+
+2024-04-22 12:06:07,988 [TScriptEngine] DEBUG ScreenCapture
+DirectX Screen Capture Initialized.
+
+2024-04-22 12:06:08,005 [TScriptEngine] DEBUG JobRunner
+DirectX ScreenCapture Checked.
+
+2024-04-22 12:06:08,026 [TScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: StartProcess - P_BuscaPelando
+##############################################################
+555b061e-b28a-40a4-a60a-8b5af287d0c6
+P_BuscaPelando
+
+
+2024-04-22 12:06:08,059 [TScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: P_BuscaPelando
+**************************************************************
+ - STEP 1: S86f16690686645bc8439a8b2b452cd83 (1/25) - (1/23)
+ - [1] ExecuteScript
+
+
+2024-04-22 12:06:08,118 [TScriptEngine] INFO  JobRequest
+ - STEP 2: S4d3ff38410c5455b826d43d87cf49cd8 (2/25) - (2/23)
+ - [2] ChromeOpen
+
+
+2024-04-22 12:06:10,257 [T17] DEBUG ChromeRemoteConnect
+GetRemoteBrowserUsingEndPoint Fail : Um ou mais erros.
+
+2024-04-22 12:06:10,290 [T17] DEBUG ChromeCommonExtension
+extension default locale empty
+
+2024-04-22 12:06:10,291 [T17] DEBUG ChromeCommonExtension
+extension default locale empty
+
+2024-04-22 12:06:10,291 [T17] DEBUG ChromeCommonExtension
+extension default locale empty
+
+2024-04-22 12:06:10,292 [T17] DEBUG ChromeCommonExtension
+extension default locale empty
+
+2024-04-22 12:06:12,391 [T17] DEBUG ChromeCommonExtension
+extension default locale empty
+
+2024-04-22 12:06:12,392 [T17] DEBUG ChromeCommonExtension
+extension default locale empty
+
+2024-04-22 12:06:12,392 [T17] DEBUG ChromeCommonExtension
+extension default locale empty
+
+2024-04-22 12:06:12,393 [T17] DEBUG ChromeCommonExtension
+extension default locale empty
+
+2024-04-22 12:06:14,084 [TScriptEngine] INFO  JobRequest
+ - STEP 3: S03561362f69e48408b702ca4b8714b67 (3/25) - (3/23)
+ - [3] OpenExcel
+
+
+2024-04-22 12:06:15,616 [TScriptEngine] INFO  JobRequest
+ - STEP 4: S584a8a33bcbf4374b5d2845290c8d9b2 (4/25) - (4/23)
+ - [4] GetRowCount
+
+
+2024-04-22 12:06:15,736 [TScriptEngine] INFO  JobRequest
+ - STEP 5: S8b8d108e00ed4c2ba96a9f2ae5f44746 (5/25) - (5/23)
+ - [5] For
+
+
+2024-04-22 12:06:15,751 [TScriptEngine] INFO  JobRequest
+ - STEP 6: S81addd046cc34e86adc068f41f9de701 (6/25) - (6/23)
+ - [6] ReadString
+
+
+2024-04-22 12:06:15,828 [TScriptEngine] INFO  JobRequest
+ - STEP 7: S6168511069a04932a8552b7ca7518a8e (7/25) - (7/23)
+ - [7] ChromeSetText
+
+
+2024-04-22 12:06:28,442 [TScriptEngine] INFO  JobRequest
+ - STEP 8: S1a0ab2948c84411ba5de633436320dca (8/25) - (8/23)
+ - [8] ChromeClick
+
+
+2024-04-22 12:06:28,656 [TScriptEngine] INFO  JobRequest
+ - STEP 9: S20620cb234734489b2e4321a3335cb99 (9/25) - (9/23)
+ - [9] Delay
+
+
+2024-04-22 12:06:38,681 [TScriptEngine] INFO  JobRequest
+ - STEP 10: Sd154f94205ee4ffe849849fea7680492 (10/25) - (10/23)
+ - [10] ChromeClick
+
+
+2024-04-22 12:06:38,880 [TScriptEngine] INFO  JobRequest
+ - STEP 11: S1d6e4894fb7b4b96b373622eece1859e (11/25) - (11/23)
+ - [11] ChromeGetData
+
+
+2024-04-22 12:06:42,048 [TScriptEngine] INFO  JobRequest
+ - STEP 12: S8ee7d528e5e34392a06123c70f954243 (12/25) - (12/23)
+ - [12] IfElse
+
+
+2024-04-22 12:06:42,063 [TScriptEngine] INFO  JobRequest
+ - STEP 13: S66f5af37684547df95266d11a70ce379 (14/25) - (14/23)
+ - [14] Else
+
+
+2024-04-22 12:06:42,079 [TScriptEngine] INFO  JobRequest
+ - STEP 14: S94d449ca04ff4387b6c6d81c72050db7 (15/25) - (15/23)
+ - [15] WriteString
+
+
+2024-04-22 12:06:42,263 [TScriptEngine] INFO  JobRequest
+ - STEP 15: S437c1d6a53d744f3a9887e29736d290d (16/25) - (16/23)
+ - [16] End-IfElse
+
+
+2024-04-22 12:06:42,279 [TScriptEngine] INFO  JobRequest
+ - STEP 16: S0ca84fa2ee0b41c9b094db9f6241e80b (17/25) - (17/23)
+ - [17] ChromeGetData
+
+
+2024-04-22 12:06:42,432 [TScriptEngine] INFO  JobRequest
+ - STEP 17: Sdd21da6ad2fc4f46840b6f5618d74d67 (18/25) - (18/23)
+ - [18] WriteString
+
+
+2024-04-22 12:06:42,495 [TScriptEngine] INFO  JobRequest
+ - STEP 18: S2a50bcf2282e46a3af438d325f45b515 (19/25) - (19/23)
+ - [19] ChromeClick
+
+
+2024-04-22 12:06:42,802 [TScriptEngine] INFO  JobRequest
+ - STEP 19: Sadffcbc16a994b17b217aa2bc56f5625 (20/25) - (20/23)
+ - [20] Delay
+
+
+2024-04-22 12:06:52,823 [TScriptEngine] INFO  JobRequest
+ - STEP 20: S113b1c326c7d46008405113d34b44d67 (23/25) - (21/23)
+ - [23] DateTime_AddDays
+
+
+2024-04-22 12:06:52,884 [TScriptEngine] INFO  JobRequest
+ - STEP 21: S53f95751bdb6412192a23e654242cbe8 (24/25) - (22/23)
+ - [24] WriteString
+
+
+2024-04-22 12:06:53,038 [TScriptEngine] INFO  JobRequest
+ - STEP 22: S81addd046cc34e86adc068f41f9de701 (6/25) - (22/23)
+ - [6] ReadString
+
+
+2024-04-22 12:06:53,114 [TScriptEngine] INFO  JobRequest
+ - STEP 23: S6168511069a04932a8552b7ca7518a8e (7/25) - (22/23)
+ - [7] ChromeSetText
+
+
+2024-04-22 12:07:05,453 [TScriptEngine] INFO  JobRequest
+ - STEP 24: S1a0ab2948c84411ba5de633436320dca (8/25) - (22/23)
+ - [8] ChromeClick
+
+
+2024-04-22 12:07:05,636 [TScriptEngine] INFO  JobRequest
+ - STEP 25: S20620cb234734489b2e4321a3335cb99 (9/25) - (22/23)
+ - [9] Delay
+
+
+2024-04-22 12:07:15,659 [TScriptEngine] INFO  JobRequest
+ - STEP 26: Sd154f94205ee4ffe849849fea7680492 (10/25) - (22/23)
+ - [10] ChromeClick
+
+
+2024-04-22 12:07:27,888 [TScriptEngine] INFO  JobRequest
+ - STEP 27: S1d6e4894fb7b4b96b373622eece1859e (11/25) - (22/23)
+ - [11] ChromeGetData
+
+
+2024-04-22 12:07:50,020 [TScriptEngine] DEBUG ChromeFind
+Chrome Find Wrapper : The object was not found.
+Please re-specify the object.
+
+2024-04-22 12:07:56,914 [TScriptEngine] INFO  JobRunner
+Try Pause
+
+2024-04-22 12:07:56,914 [TScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Paused
+##############################################################
+
+
+2024-04-22 12:07:56,914 [TScriptEngine] INFO  JobRequest
+Last job life cycle state: Paused
+
+2024-04-22 12:07:56,932 [T11] DEBUG JobRequest
+Callback - State: Paused
+
+
+2024-04-22 12:08:08,178 [T6] INFO  JobService
+Stop Job
+
+2024-04-22 12:08:08,179 [T6] INFO  JobRunner
+Stop Job Runner - Cause: LocalUser / Message: stop by user
+
+2024-04-22 12:08:08,179 [T6] INFO  JobRequest
+##############################################################
+### STATE: Stopping
+##############################################################
+stop by user
+
+
+2024-04-22 12:08:08,184 [TScriptEngine] DEBUG JobRunner
+RunTask Interrupted. TASK: P_BuscaPelando => Script execution interrupted by host
+
+2024-04-22 12:08:08,190 [T11] DEBUG JobRequest
+Callback - State: Stopping
+stop by user
+
+2024-04-22 12:08:08,194 [TScriptEngine] DEBUG JobManager
+Set Result State: Stopped
+
+2024-04-22 12:08:08,197 [TScriptEngine] INFO  JobRunner
+Make report.
+
+2024-04-22 12:08:08,252 [TScriptEngine] INFO  JobRunner
+Start to clean up resources.
+
+2024-04-22 12:08:08,253 [TScriptEngine] DEBUG JobRunner
+OnProcessCompleted
+
+2024-04-22 12:08:08,253 [T22] DEBUG JobRunner
+Start timer for checking the job to be completed.
+
+2024-04-22 12:08:08,255 [TScriptEngine] DEBUG ExcelBase
+DisposeExcel
+
+2024-04-22 12:08:08,273 [TScriptEngine] INFO  JobRunner
+Start to clean up resources.
+
+2024-04-22 12:08:08,273 [TScriptEngine] DEBUG JobRunner
+Remove all Process Stack: 1
+
+2024-04-22 12:08:08,275 [TScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: EndProcess - P_BuscaPelando
+##############################################################
+555b061e-b28a-40a4-a60a-8b5af287d0c6
+P_BuscaPelando
+
+
+2024-04-22 12:08:08,276 [TScriptEngine] DEBUG JobRunner
+Remove all libraries
+
+2024-04-22 12:08:08,276 [TScriptEngine] DEBUG NetPlayer
+WebPlayer OnDispose
+
+2024-04-22 12:08:08,278 [TScriptEngine] DEBUG WebPlayer
+WebPlayer OnDispose : Do Nothing
+
+2024-04-22 12:08:08,279 [TScriptEngine] DEBUG UiaAppHelper
+WinHelper DisposeAppList Count: 0
+
+2024-04-22 12:08:08,279 [TScriptEngine] INFO  JobRunner
+All Resources Clear
+
+2024-04-22 12:08:08,280 [TScriptEngine] DEBUG JobRunner
+OnCompleted
+
+2024-04-22 12:08:08,280 [TScriptEngine] DEBUG JobRunner
+SendJobResult: Stopped
+
+2024-04-22 12:08:08,280 [TScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Stopped
+##############################################################
+Process: P_BuscaPelando
+Step: ChromeGetData (11/25)
+
+Stopped by User
+
+
+2024-04-22 12:08:08,280 [TScriptEngine] INFO  JobRequest
+Last job life cycle state: Stopped
+
+2024-04-22 12:08:08,285 [TScriptEngine] INFO  JobRequest
+##############################################################
+### JOB COMPLETED
+##############################################################
+
+
+2024-04-22 12:08:08,299 [T11] DEBUG JobRequest
+Callback - State: Stopped
+Process: P_BuscaPelando
+Step: ChromeGetData (11/25)
+
+Stopped by User
+
+2024-04-22 12:08:08,300 [T11] INFO  JobRequest
+Callback - EngineClosed
+
+2024-04-22 12:08:08,300 [T11] INFO  JobService
+Disconnect agent service
+
+2024-04-22 12:08:08,312 [T11] DEBUG JobRequest
+End of Callback Sender
+
+2024-04-22 12:08:08,315 [TScriptEngine] INFO  JobRunner
+RunProcess end
+
+2024-04-22 12:08:08,315 [T1] INFO  JobService
+Exit - Shutdown Engine BOT
+
